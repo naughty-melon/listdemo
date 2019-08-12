@@ -1,0 +1,21 @@
+.content{
+    padding:10px 20px 0 20px;
+}
+
+.new{
+    margin:0 0 20px 3px;
+}
+
+.edit{
+    /* float: left; */
+    position: absolute;
+    top: 0px;
+    left: 94px;
+}
+
+.create{
+    /* float: left; */
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
