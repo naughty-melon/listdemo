@@ -18,7 +18,7 @@ const User={
         }
     },
     effects:{
-        *query({},{ call,put }){
+        *query({ call,put }){
             const { data }=yield call(request,'/api/users',{ method:'GET' });
             yield put({type:'save',payload:{ data }});
         },

@@ -6,7 +6,6 @@ import { Button } from 'antd';
 import img from '../assets/bsylogo.png';
 import img2 from '../assets/sjfc.svg';
 import { Row, Col } from 'antd';
-import Background1 from '../assets/index1.jpg';
 import Background2 from '../assets/index2.jpg';
 
 import { Layout, Menu, Breadcrumb } from 'antd';
@@ -37,7 +36,9 @@ function IndexPage() {
       </Header>
       <Content style={{ padding: '0 50px'}}>
         <Breadcrumb style={{ margin: '16px 16px' }}>
-          <Breadcrumb.Item style={{ fontSize:'16px' }}>首页</Breadcrumb.Item>
+          <Breadcrumb.Item style={{ fontSize:'16px' }}>
+            <Link to='/excersize'>首页</Link>
+          </Breadcrumb.Item>
         </Breadcrumb>
         <div style={{ background: 'rgba(3,12,27)', padding: 24, minHeight: 472,
                     backgroundImage:`url(${Background2})`,
@@ -59,7 +60,7 @@ function IndexPage() {
                     color:'#fff', 
                   }}
            >
-            <img src={img2}></img>
+            <img src={img2} alt=''></img>
             <h3 style={{color:'#fff'}}>简洁、高效的流程设计模式</h3>
             <p>
               集成平台基于Web图形界面，通过拖拽、连接、配置完成基于流程的设计；

@@ -21,7 +21,7 @@ class UserModal extends Component{
     }
     
     render(){
-        const { children,form:{ validateFields,getFieldDecorator },record,ok,list }=this.props;
+        const { children,form:{ validateFields,getFieldDecorator }, ok }=this.props;
 
         const showModal=()=>{
 

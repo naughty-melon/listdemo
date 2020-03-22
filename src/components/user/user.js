@@ -1,5 +1,5 @@
 import React,{ Component } from 'react';
-import { Table,Button,Popconfirm,Pagination } from 'antd';
+import { Table,Button,Popconfirm } from 'antd';
 import { connect } from 'dva';
 import UserModal from './create';
 import EditModal from './edit';

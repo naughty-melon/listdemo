@@ -11,9 +11,6 @@ import { Layout, Menu, Breadcrumb } from 'antd';
 const { Header, Content, Footer } = Layout;
 
 class CheckPage extends Component{
-    constructor(props){
-        super(props);
-    }
     
     render(){
 
